@@ -1,0 +1,12 @@
+public class Main {
+    public static boolean checkSumInRange(int x, int y) {
+        int sum = x + y;
+        return sum >= 10 && sum <= 20;
+    }
+
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 10;
+        System.out.println(checkSumInRange(x, y)); 
+    }
+}

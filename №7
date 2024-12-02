@@ -1,0 +1,10 @@
+public class Main {
+    public static boolean isNegative(int number) {
+        return number < 0;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isNegative(5));  // Output: false
+        System.out.println(isNegative(-3)); // Output: true
+    }
+}

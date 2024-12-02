@@ -1,0 +1,11 @@
+public class Main {
+    public static void printStringNTimes(String str, int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.println(str);
+        }
+    }
+
+    public static void main(String[] args) {
+        printStringNTimes("Hello, World!", 5);
+    }
+}

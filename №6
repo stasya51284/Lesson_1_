@@ -1,0 +1,14 @@
+public class Main {
+    public static void checkPositiveOrNegative(int number) {
+        if (number >= 0) {
+            System.out.println("Число положительное");
+        } else {
+            System.out.println("Число отрицательное");
+        }
+    }
+
+    public static void main(String[] args) {
+        checkPositiveOrNegative(5);  
+        checkPositiveOrNegative(-3); 
+    }
+}
